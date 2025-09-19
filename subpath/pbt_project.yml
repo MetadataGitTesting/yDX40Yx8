@@ -1,0 +1,109 @@
+name: jason.fritsch
+description: time-frame
+version: 0.0.1
+author: e6k7eyew.zkoknhaa@erxmjfh8.com
+language: sql
+buildSystem: ''
+buildSystemDetails: null
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2025-09-19 23:30:46'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/model:
+    name: model
+    schema: null
+    description: model desc
+    author: e6k7eyew.zkoknhaa@erxmjfh8.com
+    files:
+    - model.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-09-19 23:30:48'
+  .prophecy/metadata/sqlmodels/newmodel:
+    name: newmodel
+    schema: null
+    description: desc model
+    author: e6k7eyew.zkoknhaa@erxmjfh8.com
+    files:
+    - subpath/newmodel.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+      seeds: []
+      sources: []
+      snapshots: []
+    createdAt: '2025-09-19 23:30:48'
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros:
+  .prophecy/metadata/sqlmacros/macro:
+    name: macro
+    macroType: macro
+    description: macro desc
+    author: e6k7eyew.zkoknhaa@erxmjfh8.com
+    files:
+    - sources.yml
+    createdAt: '2025-09-19 23:30:48'
+sqlSeeds:
+  .prophecy/metadata/sqlseeds/seed1:
+    name: seed1
+    schema: null
+    description: seed desc
+    author: e6k7eyew.zkoknhaa@erxmjfh8.com
+    files:
+    - sources.yml
+    createdAt: '2025-09-19 23:30:48'
+sqlSources:
+  .prophecy/metadata/sqlsources/source:
+    name: source
+    description: source desc
+    author: e6k7eyew.zkoknhaa@erxmjfh8.com
+    files:
+    - sources.yml
+    createdAt: '2025-09-19 23:30:48'
+    tables: []
+  .prophecy/metadata/sqlsources/multipleFileSource:
+    name: multipleFileSource
+    description: multipleFileSource desc
+    author: e6k7eyew.zkoknhaa@erxmjfh8.com
+    files:
+    - sources1.yml
+    - mfs/src/multipleFileSource.yml
+    createdAt: '2025-09-19 23:30:48'
+    tables:
+    - name: table1
+      schema: null
+      description: descr 1
+      author: e6k7eyew.zkoknhaa@erxmjfh8.com
+      createdAt: '2025-09-19 23:30:48'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: e6k7eyew.zkoknhaa@erxmjfh8.com
+  createdAt: '2025-09-19 23:30:46'
+dependencies: []
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
